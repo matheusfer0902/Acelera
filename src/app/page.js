@@ -33,8 +33,8 @@ export default function Home() {
       setNavbarStyles({
         bgColor: 'bg-purple-600',
         textColor: 'text-white',
-        hoverColor: 'hover:text-yellow-300',
-        underlineColor: 'after:bg-yellow-300'
+        hoverColor: 'hover:text-cyan-400',
+        underlineColor: 'after:bg-cyan-400'
       });
     } else if (featuresTop <= 0) {
       setNavbarStyles({
