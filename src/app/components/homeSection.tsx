@@ -38,7 +38,7 @@ const HomeSection = () => {
           <p className="text-gray-700">
             Auxilia na sua preparação para cursos e concursos.
           </p>
-          <img src='/tutor.jpg' className='h-40 w-30'></img>
+          <img src='/tutor.png' className='h-40 w-30'></img>
         </div>
       </div>
     </div>

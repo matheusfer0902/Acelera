@@ -1,5 +1,4 @@
 'use client'
-import { useState, useEffect, useRef } from 'react';
 import Navbar from "./components/navbar";
 import HomeSection from "./components/homeSection";
 import AboutSection from "./components/aboutSection";
@@ -20,19 +19,17 @@ export default function Home() {
 
   return (
     <div>
-      <Navbar 
-  
-      />
-      <div>
-        <HomeSection id="home"/>
+      <Navbar/>
+      <div id="home">
+        <HomeSection/>
       </div>
-      <div>
-      <AboutSection
-        titleQuemSomos="Quem Somos?"
-        columnsQuemSomos={columnsData}
-        titleTecnologias="Tecnologias"
-        columnsTecnologias={columnsTecnologias}
-      />
+      <div id="quemSomos">
+        <AboutSection
+          titleQuemSomos="Quem Somos?"
+          columnsQuemSomos={columnsData}
+          titleTecnologias="Tecnologias"
+          columnsTecnologias={columnsTecnologias}
+        />
       </div>
     </div>
   );
