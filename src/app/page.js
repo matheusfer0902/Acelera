@@ -14,7 +14,7 @@ export default function Home() {
 
   const columnsTecnologias = [
     { subtitle: "IA e PLN", description: "Inteligência Artificial avançada para processamento de linguagem natural." },
-    { subtitle: "Chatbots", description: "Assistentes virtuais inteligentes para atendimento automatizado." },
+    { subtitle: "Chatbot inteligente", description: "Assistentes virtuais inteligentes para atendimento automatizado." },
     { subtitle: "IoT e Hardware", description: "Soluções de Internet das Coisas e hardware especializado." }
   ];
 

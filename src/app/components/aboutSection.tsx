@@ -14,7 +14,7 @@ const SaibaSection = ({ titleQuemSomos, columnsQuemSomos, titleTecnologias, colu
         return <BrainCog className="text-red-600 w-8 h-8 mb-2" />;
       case "IoT e Hardware":
         return <Cpu className="text-red-600 w-8 h-8 mb-2" />;
-      case "Chatbots":
+      case "Chatbot inteligente":
         return <BotMessageSquare className="text-red-600 w-8 h-8 mb-2" />;
       default:
         return null;
