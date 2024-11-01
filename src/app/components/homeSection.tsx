@@ -5,7 +5,7 @@ const HomeSection = () => {
   return (
     <div className="h-screen w-full flex flex-col justify-center items-center p-4 md:p-8 lg:p-8" style={{ background: "linear-gradient(to right, black, red)" }}>
       <div className="hidden md:block text-center mb-8 max-w-2xl sm:pt-4">
-        <h1 className="text-5xl font-extrabold text-white mb-4">AcelerAI</h1>
+        <img src='/logoWhiteBlack.png' alt="AcelerAI Logo" className="h-20 mx-auto mb-4" />
         <p className="text-white text-lg mb-2">
           Somos a AcelerAI! Uma empresa que desenvolve soluções inovadoras para transformar o seu negócio.
         </p>
@@ -25,7 +25,7 @@ const HomeSection = () => {
           <p className="text-gray-700 font-semibold">
             Chatbot personalizado para cada ocasião do seu negócio.
           </p>
-          <img src='/chatbot.png' className='h-20 w-20 sm:h-40 sm:w-40'></img>
+          <img src='/chatbot.png' className='h-20 w-20 sm:h-40 sm:w-40' alt="Chatbot" />
         </div>
         <div className="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center text-center h-65 w-full md:w-[48%]">
           <a
@@ -38,7 +38,7 @@ const HomeSection = () => {
           <p className="text-gray-700 font-semibold">
             Auxilia na sua preparação para cursos e concursos.
           </p>
-          <img src='/tutor.png' className='h-20 w-20 sm:h-40 sm:w-40'></img>
+          <img src='/tutor.png' className='h-20 w-20 sm:h-40 sm:w-40' alt="Tutor" />
         </div>
       </div>
     </div>
