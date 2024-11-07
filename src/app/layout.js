@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <head>
-        <title>acelerAI</title>
+        <title>acellerAI</title>
         <meta name="description" content="Site acelerAI" />
         <link rel="icon" href="/favicon.ico" />
       </head>

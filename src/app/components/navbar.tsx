@@ -6,12 +6,12 @@ const Navbar = () => {
       <nav>
         <div className="container mx-auto flex justify-between items-center py-4 px-5">
           <a href="#home" className="flex items-center">
-            <img src='/logonavbar.jpeg' className='h-8' alt="Logo" />
+            <img src='/logoNavbar.png' className='h-8' alt="Logo" />
           </a>
           
           <div className="hidden sm:flex space-x-6 items-center">
             <a href="#home" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:text-red-500">
-              Home
+              Produtos
             </a>
             <div className="border-r-2 h-5"></div>
             <a href="#quemSomos" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full hover:text-red-500">

@@ -20,9 +20,6 @@ export default function Home() {
   return (
     <div>
       <Navbar/>
-      <div id="home">
-        <HomeSection/>
-      </div>
       <div id="quemSomos">
         <AboutSection
           titleQuemSomos="Quem Somos?"
@@ -30,6 +27,9 @@ export default function Home() {
           titleTecnologias="Tecnologias"
           columnsTecnologias={columnsTecnologias}
         />
+      </div>
+      <div id="home">
+        <HomeSection/>
       </div>
     </div>
   );
